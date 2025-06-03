@@ -1,0 +1,179 @@
+:root {
+  --color-01: #2541b4;
+  --color-02: #1c33a2;
+  --color-03: #132690;
+  --color-04: #09187e;
+  --color-05: #000a6c;
+  --color-degrade: rgba(59, 130, 246, 0.2);
+}
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Inter', 'Segoe UI', Tahoma, sans-serif;
+  background-color: var(--color-03);
+  color: #ffffff;
+}
+
+/* Container de Login */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, var(--color-01), var(--color-04));
+  padding: 20px;
+}
+
+/* Formulário */
+.login-form {
+  background-color: var(--color-05);
+  color: #ffffff;
+  padding: 32px 24px;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Títulos */
+.login-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+}
+
+.login-subtitle {
+  font-size: 14px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 12px;
+}
+
+/* Inputs */
+.login-input {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid var(--color-04);
+  font-size: 15px;
+  outline: none;
+  background-color: var(--color-05);
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.login-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.login-input:focus {
+  border-color: var(--color-01);
+  box-shadow: 0 0 0 3px var(--color-degrade);
+}
+
+/* Botão */
+.login-button {
+  padding: 14px;
+  background-color: var(--color-02);
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: var(--color-01);
+}
+
+/* Dashboard */
+.dashboard-container {
+  padding: 24px;
+  padding-bottom: 100px;
+  background-color: var(--color-01);
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.dashboard-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* Cartões */
+.contas-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.conta-card {
+  background-color: var(--color-04);
+  padding: 16px 20px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+
+.conta-nome {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.conta-saldo {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--color-04);
+  border-top: 1px solid var(--color-03);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 0;
+  z-index: 999;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  transition: color 0.2s;
+}
+
+.nav-item.active {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.nav-icon {
+  font-size: 22px;
+  color: inherit;
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: center;
+}

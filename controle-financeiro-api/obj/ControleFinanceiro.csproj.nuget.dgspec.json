@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ControleFinanceiro\\controle-financeiro-api\\ControleFinanceiro.csproj": {}
+    "D:\\Controle-Financeiro\\controle-financeiro-api\\ControleFinanceiro.csproj": {}
   },
   "projects": {
-    "D:\\ControleFinanceiro\\controle-financeiro-api\\ControleFinanceiro.csproj": {
+    "D:\\Controle-Financeiro\\controle-financeiro-api\\ControleFinanceiro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ControleFinanceiro\\controle-financeiro-api\\ControleFinanceiro.csproj",
+        "projectUniqueName": "D:\\Controle-Financeiro\\controle-financeiro-api\\ControleFinanceiro.csproj",
         "projectName": "ControleFinanceiro",
-        "projectPath": "D:\\ControleFinanceiro\\controle-financeiro-api\\ControleFinanceiro.csproj",
+        "projectPath": "D:\\Controle-Financeiro\\controle-financeiro-api\\ControleFinanceiro.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\ControleFinanceiro\\controle-financeiro-api\\obj\\",
+        "outputPath": "D:\\Controle-Financeiro\\controle-financeiro-api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
